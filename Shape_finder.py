@@ -49,7 +49,6 @@ for i in coordinates:
     new.append(list(i))
 # coverting range of points to a single point using heirarchial cluster.
 actual_points=hc.auto_cluster(radius=5,data=np.array(new))
-print actual_points
 n_points=len(actual_points)
 if n_points==2:print "It's a line"
 elif n_points==3:print "Triangle"
@@ -66,10 +65,8 @@ print "length of hypotenuse is",hyp
 
 #you can do more operations from this
 hyp_values=dist_dict[hyp]
-print hyp_values
 x1,y1=hyp_values[0]
 x2,y2=hyp_values[1]
-print hyp_values
 m=slope(x1,y1,x2,y2)
 print "printing slope of the hypotensue",m
 print "tilt of the hypotenuse",np.degrees(np.arctan(m)),"degrees"
