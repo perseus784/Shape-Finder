@@ -32,6 +32,7 @@ Those *stars* represent an individual group for each cluster.
 ## Groupify the seperate clusters:
 
 Image supplied:
+For simplicity, we give it a image containg triangles, 
 <p align="center">
 <img src="/media/triangles.png" alt="tri" width="700" height="400">
 </p>
