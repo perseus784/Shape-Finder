@@ -31,24 +31,26 @@ Those *stars* represent an individual group for each cluster.
 
 ## Groupify the seperate clusters:
 
+**Supply Image:**  
 For simplicity, we give it a image containg triangles.  
 We did some contour detection for selecting the triangle for a particular color.  
 In this case, we select *Red* one as our target triangle.  
 <p align="center">
-<img src="/media/triangles.png" alt="tri" width="700" height="400">
+<img src="/media/triangles.png" alt="tri" width="400" height="250">
 </p>
 
+**Find Corners:**  
 Now apply **Corner-Harris** to find the corners in the contour.  
 We found some bunch of points in each corner, we will have find the actual corners from this by applying Heirarchical Clustering.  
 Once we apply HC, it is gonna look like this in graph:  
+That *Star* represents the center that it found for each cluster.
 <p align="center">
 <img src="/media/Clustering.png" alt="matplot" width="700" height="400">
 </p>
 
-That *Star* represents the center that it found for each cluster.
-Applying it to the Image to get visualization:  
+**Visualization:**
 <p align="center">
-<img src="/media/Clustered_image.png" alt="opencv" width="700" height="400">
+<img src="/media/Clustered_image.png" alt="opencv" width="600" height="350">
 </p>
 
 ### Output:
