@@ -30,7 +30,7 @@ Those *stars* represent an individual group for each cluster.
 </p>
 
 ## Groupify the seperate clusters:
-
+*Run [this](https://github.com/perseus784/Shape-Finder/blob/master/Shape-finder.py).*  
 **Supply Image:**  
 For simplicity, we give it a image containg triangles.  
 We did some contour detection for selecting the triangle for a particular color.  
@@ -54,7 +54,7 @@ That *Star* represents the center that it found for each cluster.
 </p>
 
 ### Output:
-Once we got our 3 corners, it is easy to determine it's shape and we can do more operations from other informations like below:  
+We got 3 corners, it is easy to determine it's shape and we can do more operations from other informations like below:  
 <p align="center">
 <img src="/media/ouput.png" alt="op" width="800" height="300">
 </p>
